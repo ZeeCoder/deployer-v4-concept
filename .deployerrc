@@ -1,0 +1,7 @@
+# A YAML configuration file similar to `.bowerrc` or `.npmrc`
+
+# This is where deployer searches for the bootstrapping file
+directory: .
+
+# The filename deployer runs
+file: deploy.php

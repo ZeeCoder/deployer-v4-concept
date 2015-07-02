@@ -1,0 +1,12 @@
+{
+    "name": "zeecoder/deployer-v4-concept",
+    "require-dev": {
+        "deployer/deployer": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Hubert Viktor",
+            "email": "rpgmorpheus@gmail.com"
+        }
+    ]
+}
