@@ -4,14 +4,11 @@ namespace Deployer\Server;
 
 use Deployer\Server;
 
+/**
+ * A collection of server objects.
+ */
 class Collection
 {
-    // /**
-    //  * @param \Deployer\Server $Server
-    //  * @return boolean true
-    //  */
-    // public function setPrototype(Server $Server);
-
     /**
      * @param \Deployer\Server $Server
      * @return boolean true
@@ -23,6 +20,8 @@ class Collection
      * @return \Deployer\Server
      */
     public function get($index);
+
+    public function getAll();
 
     /**
      * @param string $serverName

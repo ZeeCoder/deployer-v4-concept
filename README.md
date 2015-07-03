@@ -1,4 +1,5 @@
 goals:
+- Code over configuration!
 - Familiar, but comprehensive API
 - no globals
 - reusable tasks
@@ -7,7 +8,7 @@ goals:
 
 todo:
 - collect all the current issues and features, which the new implementation
-should also support 
+should also support
 
 issues to solve:
 - server name / stage problem
@@ -16,3 +17,8 @@ issues to solve:
     things
 
 - default server, default stage, default group on deployment
+- server names -> are they really necessary?
+
+notes:
+    - Configuration -> Auth
+    - Environment -> Configuration

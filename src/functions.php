@@ -9,12 +9,22 @@
 
 namespace Deployer;
 
-function server_prototype(Auth $Authentication)
+function server_prototype()
 {
-    return Deployer::createServerAsPrototype($Authentication);
+    return Deployer::createServerAsPrototype();
 }
 
-function server(Auth $Authentication)
+function server()
 {
-    return Deployer::createServer($Authentication);
+    return Deployer::createServer();
+}
+
+public function auth()
+{
+    return new Server\Authentication();
+}
+
+public function env()
+{
+    return new Server\Environment();
 }
